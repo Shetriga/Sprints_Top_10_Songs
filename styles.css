@@ -1,0 +1,133 @@
+body {
+    background-color: #532a7f;
+}
+
+.content-container {
+    margin: 10% auto;
+    width: 50%;
+}
+
+.title {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.top-part {
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Archivo', sans-serif;
+}
+.lorem {
+    font-weight: normal;
+}
+.show-me {
+    display: block;
+    margin: 6% auto;
+    padding: 20px;
+    font-family: 'Archivo', sans-serif;
+    color: #532a7f;
+    background-color: #EFEFEF;
+    font-size: 30px;
+}
+.show-me:hover {
+    cursor: pointer;
+}
+
+.flex-container {
+    margin: 10% auto;
+    width: 100%;
+    border: 2px solid white;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+/* .flex-items-container {
+    padding: 30px;
+} */
+.flex-container .item {
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.flex-container > div {
+    flex: 50%;
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Archivo', sans-serif;
+    font-size: 25px;
+}
+.song-number {
+    padding: 10px;
+    background-color: #E400FB;
+    color: white;
+    margin-right: 8px;
+}
+
+@media only screen and (max-width: 680px) {
+    body {
+        background-color: #532a7f;
+    }
+    
+    .content-container {
+        margin: 10% auto;
+        width: 80%;
+    }
+    
+    .title {
+        font-size: 12px;
+        color: white;
+        text-align: center;
+    }
+    
+    .top-part {
+        font-weight: bolder;
+        font-size: 25px;
+        font-family: 'Archivo', sans-serif;
+    }
+    .lorem {
+        font-weight: normal;
+    }
+    .show-me {
+        display: block;
+        margin: 15% auto;
+        padding: 10px;
+        font-family: 'Archivo', sans-serif;
+        color: #532a7f;
+        background-color: #EFEFEF;
+        font-size: 30px;
+    }
+    .show-me:hover {
+        cursor: pointer;
+    }
+    
+    .flex-container {
+        margin: 20% auto;
+        width: 100%;
+        border: 2px solid white;
+        display: flex;
+        /* justify-content: space-around; */
+        flex-wrap: wrap;
+    }
+    /* .flex-items-container {
+        padding: 30px;
+    } */
+    .flex-container .item {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .flex-container > div {
+        flex: 50%;
+        margin-bottom: 10px;
+        color: white;
+        font-family: 'Archivo', sans-serif;
+        font-size: 10px;
+    }
+    .song-number {
+        padding: 10px;
+        background-color: #E400FB;
+        color: white;
+        margin-right: 8px;
+    }
+}
